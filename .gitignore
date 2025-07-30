@@ -1,7 +1,46 @@
-venv
+# ===== MLFLOW & MODELS =====
+mlruns/
+*.pkl
+*.joblib
+models/*.pkl
+models/*.joblib
+
+# ===== DATA =====
+data/raw/
+data/processed/
+*.csv
+*.txt
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== PYTHON =====
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
+*.so
 .Python
-db.sqlite3
+env/
+venv/
+.venv/
+pip-log.txt
+
+# ===== LOGS =====
+*.log
+logs/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== ENV FILES =====
+.env
+.env.local
+.env.*.local
